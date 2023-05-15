@@ -1,24 +1,20 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import Will from "@images/willbell.jpg";
+import Spencer from "@images/spencerk.jpg";
 import { Picture } from "@astrojs/image/components";
 import Technologies from "@components/Technologies.astro";
 import tech from "@content/tech.json";
 import SocialLink from "@components/SocialLink.astro";
 
 const metadata = {
-  title: "Index - Will Bell",
+  title: "Index - Spencer Kline",
   description: "This is my index",
 };
 
 const contact = [
   {
-    url: "https://twitter.com/senorgrubby",
-    icon: "mdi:twitter",
-    name: "Twitter",
-  },
-  {
-    url: "mailto:willbell0@icloud.com",
+    url: "mailto:spencerk98@gmail.com",
     icon: "dashicons:email",
     name: "Email",
   }
@@ -26,23 +22,13 @@ const contact = [
 
 const socials = [
   {
-    url: "https://github.com/willb0",
+    url: "https://github.com/kline7",
     icon: "mdi:github",
     name: "GitHub",
-  },
-  {
-    url: "https://stackoverflow.com/users/14331727/willb",
-    icon: "mdi:stack-overflow",
-    name: "Stackoverflow",
-  },
+  }
   {
     icon: "carbon:logo-keybase",
     name: "grubbby",
-  },
-  {
-    icon:"carbon:document",
-    name:"resume",
-    url:"/Will_Bell_DS_Resume__Copy_-2.pdf"
   }
 ];
 ---
@@ -52,9 +38,9 @@ const socials = [
     class="pb-10 sm:flex sm:items-center sm:justify-between sm:flex-row-reverse"
   >
     <Picture
-      src={Will}
+      src={Spencer}
       class="rounded-full overflow-hidden inline-flex sm:m-8"
-      alt="Will Bell smiling"
+      alt="Spencer Kline smiling"
       aspectRatio="1:1"
       widths={[320]}
       loading="eager"
@@ -68,7 +54,7 @@ const socials = [
       </h1>
       <p class="max-w-10 text-zinc-300 sm:max-w-sm md:max-w-xl">
         Welcome to my webpage/blog! I appreciate you stopping by, check out
-        my projects and hit me on twitter/email for a quick response!
+        my projects and message my email for a quick response!
       </p>
       {
         contact && (
@@ -92,13 +78,9 @@ const socials = [
     class="pb-10 sm:flex sm:items-center sm:justify-between sm:flex-row-reverse"
   >
     <p class="max-w-10 text-zinc-300">
-      I'm a Data Science and Math student at Purdue interested in large scale
-      data and/or ML pipelines and the infra behind it. My coursework is mostly
-      theoretical Math/CS/Statistics, so I enjoy building software and data
-      applications in my free time to explore these concepts--mostly with
-      Python. Recently, I've been learning about Topic Modeling, Rust, Go, and
-      notification systems, you can check out my progress under my Projects tab.
-      Currently looking for an internship before I graduate in December 2023
+      I'm Spencer Kline, a Software Engineer with a passion for building robust solutions and driving impactful results,
+      Armed with a Bachelor's degree in Computer Science and obtaining Master's degree in Cybersecurity Management, I've honed my skills through
+      exciting ventures. 
     </p>
   </section>
   <section class="py-10 md:py-14 text-zinc-300">
