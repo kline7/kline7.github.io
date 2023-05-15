@@ -32,4 +32,4 @@ pnpm preview
 
 ## License ⚖️
 
-This repository has [MIT License](https://github.com/willb0/will-site/main/license).
+This repository has [MIT License](https://github.com/kline7/spencer-site/main/license).
