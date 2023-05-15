@@ -1,36 +1,31 @@
 [
   {
-    "title": "reddit-autocategorization",
-    "description": "Machine Learning pipeline to automatically cluster Reddit posts",
-    "githubUrl": "https://snoo-frontend.up.railway.app/",
+    "title": "openssl-poc",
+    "description": "OpenSSL encryption POC in C",
+    "githubUrl": "https://github.com/kline7/OpenSSLPOC",
     "technologies": [
-      "Python",
-      "Rust",
-      "Streamlit",
-      "Docker"
+      "C"
     ],
     "stargazers": 0
   },
   {
-    "title": "mercari-sniper",
-    "description": "My in-progress secondhand clothing notifications",
-    "githubUrl": "https://github.com/willb0/mercari-sniper",
+    "title": "oauth2-poc",
+    "description": "Implementation of OAuth2",
+    "githubUrl": "https://github.com/kline7/OAuth2",
     "technologies": [
       "Python",
       "FastAPI",
-      "Redis",
-      "Twilio"
+      "Redis"
     ],
     "stargazers": 0
   },
   {
-    "title": "r-slash-merge",
-    "description": "Aggregate videos from a subreddit into one long compilation",
-    "githubUrl": "https://github.com/willb0/r-slash-merge",
+    "title": "confluent-kafka",
+    "description": "Implementation of Pub/Sub Kafka clients",
+    "githubUrl": "https://github.com/kline7/Confluent-Kafka",
     "technologies": [
       "Python",
-      "FFmpeg",
-      "FastAPI",
+      "Kafka",
       "docker-compose"
     ],
     "stargazers": 0
