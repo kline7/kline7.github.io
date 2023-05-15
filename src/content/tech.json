@@ -14,29 +14,13 @@
   {
     "logo": "simple-icons:fastapi",
     "text": "FastAPI"
-  },
-  {
-    "logo": "simple-icons:streamlit",
-    "text": "Streamlit"
-  },
+  }
   {
     "logo": "mdi:aws",
     "text": "AWS"
   },
   {
-    "logo": "simple-icons:pandas",
-    "text": "Pandas"
-  },
-  {
-    "logo": "simple-icons:numpy",
-    "text": "Numpy"
-  },
-  {
-    "logo": "mdi:language-java",
-    "text": "Java"
-  },
-  {
-    "logo": "simple-icons:rust",
-    "text": "Rust"
+    "logo": "simple-icons:javascript",
+    "text": "Javascript"
   }
 ]
